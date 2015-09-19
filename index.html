@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Welcome to Bamarea.me</title>
+		<link rel="icon" type="image/png" href="img/favico.png" />
+
+		<script type="text/javascript">
+			//<![CDATA[
+			var owa_baseUrl = 'http://owa.bamarea.me/';
+			var owa_cmds = owa_cmds || [];
+			owa_cmds.push(['setSiteId', 'e21ff66d7498e96154a1ca3482d64269']);
+			owa_cmds.push(['trackPageView']);
+			owa_cmds.push(['trackClicks']);
+			owa_cmds.push(['trackDomStream']);
+			
+			(function() {
+			    var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
+			    _owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+			    var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
+			}());
+			//]]>
+		</script>
+
+	</head>
+	<body>
+		<center><h1>Hello World!</h1></center>
+
+		<div onclick="OWATracker.trackClicks();"> HELLO <div>
+
+	</body>
+</html>
