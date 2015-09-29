@@ -1,0 +1,39 @@
+body{
+	background: url(../img/bg-dark.png) repeat;
+	font-family: Tahoma;
+}
+
+#content{
+	width: 1020px;
+	min-height: 500px;
+	margin: 4px auto;
+	padding: 10px;
+	box-shadow: 0 0 25px #FDF;
+	background-color: rgba(255, 255, 255, 0.62);
+}
+
+#can{
+	width: 500px;
+	border: solid black 1px;
+	margin: 10px auto;
+
+}
+
+#bc-down{
+	width: 500px;
+	margin: 10px auto;	
+}
+
+#controlAnim{
+	width: 30px;
+	height: 23px;
+	margin: 0 auto;
+	font-size: 20;
+	cursor: default;
+}
+
+#info{
+}
+
+#bc-owa{
+}
